@@ -1,50 +1,36 @@
-# Saudi Tadawul Market Performance Analysis | أداء سوق تداول السعودي 📊
+# Saudi Tadawul Market Performance Analysis
+<img width="2756" height="1484" alt="image" src="https://github.com/user-attachments/assets/1d7fe6af-0c4c-4a50-86f4-62413d450319" />
 
-This project provides an interactive dashboard and in-depth analysis of the Saudi Tadawul stock market performance during March and April 2020.
-يقدم هذا المشروع لوحة تحكم تفاعلية وتحليلاً معمقاً لأداء سوق الأسهم السعودي (تداول) خلال شهري مارس وأبريل 2020.
+## 🚀 Project Overview
+[cite_start]This project showcases the daily performance of Saudi Tadawul stocks during March and April 2020[cite: 15]. [cite_start]The objective is to analyze market performance, identify high-liquidity and high-volatility stocks, and provide actionable insights for investment decisions[cite: 10, 11, 12, 13].
 
----
+## 📊 Project Highlights
+* [cite_start]**Data Scale:** Analyzed a high trading density reaching 3.64M trades with a total value of 77.09B SAR[cite: 16].
+* [cite_start]**Key Findings:** * The Information Technology sector was the highest-growing, reaching 86.38%[cite: 17, 106].
+    * [cite_start]Al Rajhi and Alinma were identified as liquidity leaders dominating trading value[cite: 17].
+    * [cite_start]67.38% of the days were "down" days, with Tuesday recording the highest drop percentage[cite: 105].
 
-## 📌 Project Overview | نظرة عامة على المشروع
-The primary objectives were to analyze market performance, understand sector behavior, identify high-liquidity stocks, and deliver actionable insights.
-كانت الأهداف الرئيسية هي تحليل أداء السوق، وفهم سلوك القطاعات، وتحديد الأسهم ذات السيولة العالية، وتقديم رؤى تدعم اتخاذ القرارات الاستثمارية.
+## 🛠 Tools Used
+* [cite_start]**Microsoft Excel:** Utilized for data processing via Power Query and analysis via Pivot Tables[cite: 18].
 
-*   **Period | الفترة**: March–April 2020.
-*   **Key Metrics | المؤشرات الرئيسية**: Analyzed 3.64 million trades with a total value of 77.09 Billion SAR.
-*   **Tools | الأدوات**: Microsoft Excel (Power Query & Pivot Tables).
+## ⚙️ Data Preparation & ETL
+To ensure accuracy, the following steps were performed[cite: 51]:
+* **Data Cleaning:** Removed blank rows and redundant "Name" columns to reduce file size[cite: 52, 55].
+* **Data Transformation:** Standardized data types (Decimal, Date, Text) and renamed columns for clarity[cite: 53, 54].
+* **Validation:** Implemented a `check_perc_change` column to verify the integrity of the original data[cite: 56].
+* **Calculated Columns:** * **Trend:** Determined daily movement (Up/Down/No change) based on Open vs. Close prices[cite: 61, 63].
+    * **Volatility:** Calculated as `High - Low` to measure daily range[cite: 64, 66].
+    * **DayOfWeekName:** Extracted to analyze activity patterns[cite: 67, 68].
 
----
+## 📈 Dashboard Features
+The interactive dashboard includes several visualizations[cite: 99]:
+* **KPIs:** Total trades (3.64M), Total trading value (77.09B SAR), and peak daily volume (823.27M)[cite: 102, 103, 104].
+* **Charts:** * Closing Price vs. Trading Volume (Combo Chart)[cite: 108].
+    * Sector Performance Analysis (Donut Chart)[cite: 109].
+    * Top 5 Companies by Trading Value (Pie Chart)[cite: 110].
+    * Volatility and Activity Rankings (Bar Charts)[cite: 111].
+<img width="2490" height="1512" alt="image" src="https://github.com/user-attachments/assets/cfde9823-5ab9-45c2-a66e-da42605e21f4" />
 
-## 🛠️ Data Preparation & ETL | إعداد البيانات
-The data was sourced from Kaggle and processed through several steps to ensure accuracy:
-تم الحصول على البيانات من Kaggle ومعالجتها عبر عدة خطوات لضمان الدقة:
 
-*   **Cleaning | التنظيف**: Removed blank rows and redundant name columns.
-*   **Transformation | التحويل**: Standardized data types (Text, Date, Decimal).
-*   **Validation | التحقق**: Added check columns to verify the integrity of the original numbers.
-
----
-
-## 📈 Methodology | منهجية العمل
-*   **Calculated Columns | الأعمدة المحسوبة**:
-    *   **Trend**: Compared opening vs. closing prices.
-    *   **Volatility**: Measured the range of movement (High - Low).
-    *   **DayOfWeekName**: Analyzed trading activity based on the day.
-*   **Pivot Tables | الجداول المحورية**: Used to extract key KPIs including sector performance and company activity.
-
----
-
-## 💡 Key Insights | الرؤى والنتائج الرئيسية
-Synthesizing the data provides the following market dynamics:
-تخلص نتائج البيانات إلى ديناميكيات السوق التالية:
-
-*   **Concentrated Liquidity**: Market depth was driven by leaders like Alinma and Al Rajhi.
-*   **Uneven Sector Performance**: The Information Technology sector outperformed traditional sectors like Real Estate.
-*   **Price-Volume Dynamics**: Panic in March triggered volume spikes, while April showed a steady recovery.
-*   **Risk & Rewards**: Opportunities were stock-specific, with Anaam leading in volatility and Astra delivering highest returns.
-
----
-
-## 🔗 Project Showcase | عرض المشروع
-
-👉 [Saudi Tadawul Market Performance on Behance](https://www.behance.net/gallery/247673089/Saudi-Tadawul-Market-Performance)
+## 🔗 Project Link
+[View the full project on Behance](https://www.behance.net/gallery/247673089/Saudi-Tadawul-Market-Performance)
