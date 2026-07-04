@@ -2,7 +2,7 @@
 <img width="2756" height="1484" alt="image" src="https://github.com/user-attachments/assets/1d7fe6af-0c4c-4a50-86f4-62413d450319" />
 
 ## 🚀 Project Overview
-This project showcases the daily performance of Saudi Tadawul stocks during March and April 2020[cite: 15]. [cite_start]The objective is to analyze market performance, identify high-liquidity and high-volatility stocks, and provide actionable insights for investment decisions[cite: 10, 11, 12, 13].
+This project showcases the daily performance of Saudi Tadawul stocks during March and April 2020.The objective is to analyze market performance, identify high-liquidity and high-volatility stocks, and provide actionable insights for investment decisions.
 
 ## 📊 Project Highlights
 * **Data Scale:** Analyzed a high trading density reaching 3.64M trades with a total value of 77.09B SAR[cite: 16].
