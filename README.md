@@ -2,16 +2,16 @@
 <img width="2756" height="1484" alt="image" src="https://github.com/user-attachments/assets/1d7fe6af-0c4c-4a50-86f4-62413d450319" />
 
 ## 🚀 Project Overview
-[cite_start]This project showcases the daily performance of Saudi Tadawul stocks during March and April 2020[cite: 15]. [cite_start]The objective is to analyze market performance, identify high-liquidity and high-volatility stocks, and provide actionable insights for investment decisions[cite: 10, 11, 12, 13].
+This project showcases the daily performance of Saudi Tadawul stocks during March and April 2020[cite: 15]. [cite_start]The objective is to analyze market performance, identify high-liquidity and high-volatility stocks, and provide actionable insights for investment decisions[cite: 10, 11, 12, 13].
 
 ## 📊 Project Highlights
-* [cite_start]**Data Scale:** Analyzed a high trading density reaching 3.64M trades with a total value of 77.09B SAR[cite: 16].
-* [cite_start]**Key Findings:** * The Information Technology sector was the highest-growing, reaching 86.38%[cite: 17, 106].
-    * [cite_start]Al Rajhi and Alinma were identified as liquidity leaders dominating trading value[cite: 17].
-    * [cite_start]67.38% of the days were "down" days, with Tuesday recording the highest drop percentage[cite: 105].
+* **Data Scale:** Analyzed a high trading density reaching 3.64M trades with a total value of 77.09B SAR[cite: 16].
+* **Key Findings:** * The Information Technology sector was the highest-growing, reaching 86.38%[cite: 17, 106].
+    * Al Rajhi and Alinma were identified as liquidity leaders dominating trading value[cite: 17].
+    * 67.38% of the days were "down" days, with Tuesday recording the highest drop percentage[cite: 105].
 
 ## 🛠 Tools Used
-* [cite_start]**Microsoft Excel:** Utilized for data processing via Power Query and analysis via Pivot Tables[cite: 18].
+***Microsoft Excel:** Utilized for data processing via Power Query and analysis via Pivot Tables[cite: 18].
 
 ## ⚙️ Data Preparation & ETL
 To ensure accuracy, the following steps were performed[cite: 51]:
